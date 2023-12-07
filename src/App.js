@@ -8,8 +8,7 @@ import Achievements from './components/Achievements';
 
 function App() {
   return (
-    <div className="App">
-      {/* <h1 className="text-bold text-xl">Portfolio</h1> */}
+    <div className="App bg-slate-300">
       <Navbar/>
       <AboutMe/>
       <Projects/>

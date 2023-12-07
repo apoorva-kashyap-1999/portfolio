@@ -28,7 +28,7 @@ const AboutMe = () => {
     <div className="flex flex-col" id="about">
       <div  className="flex flex-col items-center justify-center">
         <img
-          className="w-44 mx-auto mt-20 rounded-lg hover:border"
+          className="w-44 mx-auto mt-20 rounded-lg hover:border-8"
           src={My_photo}
           alt="ME"
         />
@@ -42,8 +42,8 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="flex  items-center justify-center mt-40"> 
-        <button className="bg-slate-300 px-4 py-2 mx-2 border rounded-xl" onClick={handleGitClick}>Github</button>
-        <button className="bg-slate-300 px-4 py-2 mx-2 border rounded-xl" onClick={handleLinkedInClick}>LinkedIn</button>
+        <button className="bg-slate-300 px-4 py-2 mx-2 border border-black rounded-xl hover:bg-slate-400" onClick={handleGitClick}>Github</button>
+        <button className="bg-slate-300 px-4 py-2 mx-2 border  border-black rounded-xl  hover:bg-slate-400" onClick={handleLinkedInClick}>LinkedIn</button>
       </div>
     </div>
   );
