@@ -2,7 +2,7 @@ import React from "react";
 
 const CareerSummary = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center" id="career">
       <h3 className="text-3xl font-bold m-4">Career Summary</h3>
       <ul className="text-lg text-center max-w-lg">
         <li>⭐MERN Developer with 2.4 Years of experience in LTIMindtree</li>

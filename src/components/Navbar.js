@@ -5,19 +5,19 @@ const Navbar = () => {
     <div className="flex">
       <ul className="flex flex-row px-[30%] flex-wrap">
         <li className="p-2 m-2 list-none text-xl border bottom-2 rounded-lg">
-          About Me
+        <a href="#about">About Me</a>
         </li>
         <li className="p-2 m-2 list-none text-xl border bottom-2 rounded-lg">
-          Projects
+          <a href="#projects">Projects</a>
         </li>
         <li className="p-2 m-2 list-none text-xl border bottom-2 rounded-lg">
-          Contacts
+          <a href="#contact">Contacts</a>
         </li>
         <li className="p-2 m-2 list-none text-xl border bottom-2 rounded-lg">
-          Career Summary
+        <a href="#career">Career Summary</a>
         </li>
         <li className="p-2 m-2 list-none text-xl border bottom-2 rounded-lg">
-          Achivements
+          <a href="#achievement">Achivements</a>
         </li>
       </ul>
     </div>

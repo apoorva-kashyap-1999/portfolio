@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col flex-wrap justify-center items-center mt-20">
+    <div className="flex flex-col flex-wrap justify-center items-center mt-20" id="projects">
       <h1 className="text-3xl font-bold my-4"> Personal Projects </h1>
       <div className="flex justify-center items-center flex-wrap">
         <div className="flex flex-col justify-center items-center text-bold text-3xl m-2">
