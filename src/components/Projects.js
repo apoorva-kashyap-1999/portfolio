@@ -9,7 +9,7 @@ const Projects = () => {
           Netflix-Clone
           <p className="w-full md:w-48 h-auto m-2 text-lg px-2">
             Built using ReactJs for frontend, Firebase for authentication,
-            Tilwind CSS for styling , Redux Toolkit for state management
+            Tailwind CSS for styling , Redux Toolkit for state management
           </p>
         </div>
         <div className="flex flex-col justify-center items-center text-bold text-3xl m-2">
