@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="flex">
-      <ul className="flex flex-row px-[30%] flex-wrap">
+      <ul className="flex flex-row px-[20%] flex-wrap">
         <li className="p-2 m-2 list-none text-xl border  border-black rounded-lg  hover:bg-slate-200">
           <a href="#about">About Me</a>
         </li>
